@@ -1,7 +1,16 @@
-source 'https://rubygems.org'
+source 'http://rubygems.org'
+
+gem 'actionview', '~> 4.2.0'
+gem 'activemodel', '~> 4.2.0'
+gem 'activesupport', '~> 4.2.0'
+gem 'rack', '~> 1.6.0'
+gem 'rack-test', '~> 0.6.2'
+gem 'rails-dom-testing', '~> 1.0.5'
+gem 'rails-html-sanitizer', '~> 1.0.1'
+gem 'actionpack', '~> 4.2.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.0.2'
+gem 'rails', '~>4.2.0'
 
 # Use sqlite3 as the database for Active Record
 #gem 'sqlite3'
@@ -32,6 +41,7 @@ group :doc do
   gem 'sdoc', require: false
 end
 
+gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw]
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
@@ -43,6 +53,8 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+gem 'bootstrap-sass', '~> 3.3.1.0'
+gem 'devise', '~> 3.4.1'
 
 group :development, :test do
   gem 'sqlite3'
